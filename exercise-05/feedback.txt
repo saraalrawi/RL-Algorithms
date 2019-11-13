@@ -1,0 +1,37 @@
+Feedback
+Gabriel Kalweit
+---------------
+rl01
+ex05
+----
+
+5.1 TensorFlow (6p):
+
+  * The inputs and targets should have shape (None, ...) so as to accept batches
+    instead of single samples. Then you want to take the MEAN squared error. 
+    (-1.5p)
+  * If your Q-network has multiple outputs, for training you only want to
+    consider the value of the given actions in the samples. Then you also do not
+    have to do this 'updates'-workaround in the update-method. (-1p)
+  * Other than that it looks good.
+ 
+  --> 3.5p/6p
+--------------------------------------------------------------------------------
+
+5.2 Q-learning with Function Approximator (14p):
+
+  * Learning and rollout are not distinct and happen in every time step. (-5p)
+  * Readding samples in the replay buffer can be problematic, since you then
+    increase the probability of drawing these samples again every time (if you
+    draw samples randomly). Introducing some bias *can* be a strategy to learn
+    faster (e.g. see prioritized experience replay), but this needs to be handled
+    carefully. (-1p)
+  * You should update both, Q-network and target network, in every time step.
+    And you have to draw batches in every time step and train on a whole batch at
+    once (then you can also train on single samples with a batch size of 1, but
+    usually the minibatch size is set to a value between 16 and a few 100s). (-3p)
+
+  --> 5p/14p
+--------------------------------------------------------------------------------
+Bonus +1p
+--> 9.5p/20p

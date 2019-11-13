@@ -1,0 +1,19 @@
+Experience
+
+In order to solve the exercises we had to have a look at the book Chapter 9, 10. 
+Form our experience, David's lecture was not that helpful to understand the concepts. He got the topic twisted and did not manage the lecture's time very well.
+
+Difficulty
+
+The task  was not really understandable without help and at some point did not know what to ask. However, posting in the forum was helpful.
+The code contains some errors and it took us sometime to realize the problematic part whether in our code or in yours. 
+The Tensorflow is a huge toolbox and requirs a lot of time to get into it. We know that the task requires just few things to learn about TF, nevertheless, we think that the sheet could be formulated in a some other way due to the high required efforts. 
+One of the team members faced additional challenges, that required to re-build the student's background. 
+In order to get the code running/trained, the pool computer has been used.
+
+Time
+This sheet is the most difficult one so far it needed in average 16H (in the first week).
+
+short comparison about your experiences with Q-learning – with and without experience replay and target networks:
+First we collected episodes with done and started to replay them at the point we have batch_size episodes. By nature this is better
+than further random because it only trains with working runs. If this wouldn't suitable another batch_size would be possible to change.
