@@ -1,0 +1,26 @@
+Feedback
+Gabriel Kalweit
+---------------
+rl01
+ex04
+----
+
+4.1 Off-Policy MC Control with Importance Sampling (10p):
+
+  * You have to calculate the specific return for each state action pair
+  individually, not for all states the total return. (-3p)
+  * You are not discounting. (But it does not matter here) (-1p)
+  * Other than that I do not see crucial mistakes, i.e. you seem to understand
+  the concept.
+ 
+  --> 6p/10p
+--------------------------------------------------------------------------------
+
+4.2 Q-learning (10p):
+
+  * Well done.
+
+  --> 10p/10p
+--------------------------------------------------------------------------------
+Bonus +1p
+--> 17p/20p
