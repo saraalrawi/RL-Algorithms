@@ -1,0 +1,32 @@
+Feedback
+Gabriel Kalweit
+---------------
+rl01
+ex02
+----
+
+1.1 Policy Iteration (12p):
+
+(a)
+
+  * Perfect.
+
+(b)
+  * Nothing to say here.  
+  --> 12p/12p
+--------------------------------------------------------------------------------
+
+1.2 Value Iteration (8p):
+
+(a)
+
+  * Yes.
+
+(b)
+
+  * Policy Iteration is not necessarily slower than value iteration -- it can
+    even be faster. But yeah, as you said, there is huge overlap.
+  --> 8p/8p
+--------------------------------------------------------------------------------
+Bonus +1p
+--> 21p/20p
