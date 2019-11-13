@@ -1,0 +1,30 @@
+Feedback
+Gabriel Kalweit
+---------------
+rl01
+ex07
+----
+
+7.1 Regret of UCB1 and Decaying ε-greedy (20p):
+
+  (a)
+
+  * The double-argmax in UCB1 is wrong. argmax(argmax(Q) + N) is not the same as
+    argmax(Q+N). (-2.5p)
+  * The rest looks good.
+  
+  (b)
+
+  * You do not describe the problems that occur with the exploration strategies
+    mentioned in the lecture. (-2.5p)
+  * The 'sensor pattern check' is highly non-trivial and you did not descibe it
+    very well. It corresponds to a mapping from sensor data to states to 
+    security level. In addition, you had to know the next state, given an action
+    and a sensor pattern (you cannot simply use the current sensor pattern,
+    because the current sensor pattern corresponds to a safe state [otherwise
+    we have a problem]).
+ 
+  --> 15p/20p
+--------------------------------------------------------------------------------
+Bonus +1p
+--> 16p/20p
