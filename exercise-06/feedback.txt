@@ -1,0 +1,22 @@
+Feedback
+Gabriel Kalweit
+---------------
+rl01
+ex06
+----
+
+6.1 Policy Gradient Methods (20p):
+
+  * The objective is based on the *log*-policy, see the policy gradient theorem
+    its derivation in David's slides. (-5p)
+  * Here, one estimates Q by the discounted sum of all intermediate rewards for
+    a whole rollout starting from a specific state (so you have an individual
+    'G' for all transitions in your episode). You are only feeding in the single
+    reward -- which is wrong. And 'reward' is actually never set to the
+    correspoding value of the sample. Since it is correct in the baseline
+    comment, I guess it was a last minute typo, but still. (-3p)
+ 
+  --> 12p/20p
+--------------------------------------------------------------------------------
+Bonus +1p
+--> 13p/20p
